@@ -73,11 +73,6 @@ const AddNewService = ({ navigation }) => {
         <ScrollView contentContainerStyle={styles.scroll}>
           <Surface style={styles.surface}>
             <View style={styles.headerContainer}>
-              <IconButton
-                icon="spa"
-                size={24}
-                style={styles.icon}
-              />
               <Text variant="headlineMedium" style={styles.title}>
                 Thêm Dịch Vụ Mới
               </Text>

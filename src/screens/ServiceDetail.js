@@ -65,13 +65,9 @@ const ServiceDetail = ({ route, navigation }) => {
           style={styles.header}
         >
           
-          {service.imageUrl ? (
-            <Image source={{ uri: service.imageUrl }} style={styles.serviceImage} />
-          ) : (
             <View style={styles.imagePlaceholder}>
               <Avatar.Icon size={80} icon="spa" color="#FFF" style={{ backgroundColor: 'rgba(255,255,255,0.3)' }} />
             </View>
-          )}
           
           <Text variant="headlineSmall" style={styles.serviceName}>
             {service.name}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, StyleSheet, ScrollView, Alert, KeyboardAvoidingView, Platform, TouchableOpacity } from "react-native";
 import { TextInput, Button, Text, Surface, IconButton, HelperText, ActivityIndicator, Portal, Dialog } from "react-native-paper";
 import { updateDoc, doc } from "firebase/firestore";
-import { db } from "../../firebase"; // đường dẫn đến cấu hình Firebase
+import { db } from "../../firebase"; 
 import { LinearGradient } from "expo-linear-gradient";
 
 const EditService = ({ route, navigation }) => {
